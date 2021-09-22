@@ -1,0 +1,95 @@
+body{
+	font-family: 'Style Script', cursive;;
+	background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+#text{
+    display: inline;
+    margin: 510px;
+    color: rgb(12, 12, 12);
+}
+#container{
+	width: 1000px;
+	height: 550px;
+	margin: 20px auto;
+    background-color: transparent;	
+}
+#calculator{
+	width: 320px;
+	height: 520px;
+	background-color: transparent;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 14px 18px 0 rgb(247, 169, 2), 0 6px 20px 0 rgb(247, 169, 2);
+}
+#result{
+	height: 120px;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#keyboard{
+	height: 400px;
+}
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.number, .empty{
+	background-color: transparent;
+}
+.number, .operator{
+	cursor: pointer;
+    background-color: transparent;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+    background-color: transparent;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+    background-color: transparent;
+}
+button:nth-child(1){
+	font-size: 20px;
+	background-color: transparent;
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: transparent;
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: transparent;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: transparent;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: transparent;
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: transparent;
+}
